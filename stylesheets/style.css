@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .d-flex {
@@ -81,6 +82,31 @@ nav {
 
 .post-details p {
     padding-left: 4px;
+}
+
+.news-container {
+    padding-left: 0.5rem;
+}
+
+.section-title {
+    color: orangered;
+    font-size: 28px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.news-post {
+    margin: 0.5rem;
+}
+
+.posts-details {
+    padding-left: 0.6rem;
+    width: 200px;
+}
+
+.newspost-images img{
+    width: 120px;
+    height: 120px;
 }
 
 
