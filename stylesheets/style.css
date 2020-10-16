@@ -10,6 +10,11 @@
 
 nav {
   border-bottom: 1px solid lightgray;
+  position: fixed;
+  background-color: white;
+  margin-top: -0.2rem;
+  width: 100%;
+  z-index: 2
 }
 
 .logo {
@@ -29,7 +34,7 @@ nav {
     height: 46px;
     padding-left: 0.8rem;
     padding-right: 0.6rem;
-    padding-top: 1rem;
+    padding-top: 1.3rem;
 }
 
 .red {
@@ -39,10 +44,6 @@ nav {
 .grey {
     color: gray
 }
-
-/* .headline-container {
-    border: 1px solid black;
-} */
 
 .date {
     display: none;
@@ -157,7 +158,7 @@ position: relative;
 
 .address-details {
     background-color: #fffaf8;
-    height: 11rem;
+    height: 10rem;
     padding-top: 1rem;
     padding-left: 1rem;
     
@@ -171,6 +172,87 @@ position: relative;
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid orangered;
+    font-size: smaller;
 }
 
+.flex-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
 
+.article-hardfork-title {
+  font-size: 28px;
+  color: orangered;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.text-and-image {
+    background-color:  #fffaf8;
+    color: orangered;
+    padding-left: 1rem;
+    height: 5.3rem;
+    padding-top: 1rem;
+    width: 224px;
+}
+
+.articles-bullet {
+    margin-left: 1.5rem;
+}
+
+.articles-bullet li {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.img1 {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/2GzQLFM');
+    height: 200px;
+}
+
+.img2 {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Netflix-Featured_1-796x417.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+}
+  
+  .img3 {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FCropped-Apple-iPhone-2020-October-Event-hed.jpg&signature=7f856702b0d7d653b6c21385829d4191');
+    height: 200px;
+    background-repeat: no-repeat;
+}
+  
+  .img-textandimg1 {
+    background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fimage-2-3.png&signature=46eb8974a30417f8bb01e6dd9323c395');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+  
+  .img-textandimg2 {
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-11T182518.964-796x417.png');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+  
+  .img-textandimg3 {
+    background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FSnag_2c5b02a1.png&signature=6089850ac90dcda000429fe9ad802e62');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+
+.img-textandimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    margin-left: 14.2rem;
+    margin-top: -5.8rem;
+  }
