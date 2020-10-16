@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  background-color: black;
+  padding: 1rem;
+  height: 30px;
+  width: 90px;
+}
+
+.bars {
+    font-size: 24px;
+    margin-left: 8rem;
+}
+
+.bars i {
+    border-left: 1px solid grey;
+    height: 46px;
+    padding-left: 0.8rem;
+    padding-right: 0.6rem;
+    padding-top: 1rem;
+}
+
+.red {
+    color: red;
+}
+
+.grey {
+    color: gray
+}
