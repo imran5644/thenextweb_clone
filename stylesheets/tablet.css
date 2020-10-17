@@ -1,0 +1,60 @@
+.headline-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.bg-image1 {
+    margin: 0.5rem;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/2GzQLFM');
+    background-repeat: no-repeat;
+    height: 424px;
+}
+
+.bg-image2 {
+    margin: 0.5rem;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/3ixcqM0');
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.bg-image3 {
+    margin: 0.5rem;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/2Sqlyrn');
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.hide {
+    display: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.column-post {
+    flex-direction: column;
+}
+
+.newspost-images img{
+    width: 220px;
+    height: 150px;
+}
+
+.funds-grid {
+    width:250px;
+}
+
+.ico-funds-row {
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    grid-gap: 10px;
+}
+
+
+ 

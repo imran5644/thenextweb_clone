@@ -10,7 +10,7 @@
 
 nav {
   border-bottom: 1px solid lightgray;
-  position: fixed;
+  position: sticky;
   background-color: white;
   margin-top: -0.2rem;
   width: 100%;
