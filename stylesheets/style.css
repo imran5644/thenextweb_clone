@@ -301,8 +301,9 @@ position: relative;
   }
 
   .bottom-section img {
-      height: 20px;
-      width: 30px;
+      height: 30px;
+      width: 50px;
+     vertical-align: middle;
   }
 
   .footer-links {
@@ -334,4 +335,8 @@ position: relative;
 
   .footer-fontsize {
       font-size: small;
+  }
+
+  .second-line {
+      display: none;
   }
