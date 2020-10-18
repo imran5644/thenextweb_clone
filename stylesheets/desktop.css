@@ -61,16 +61,79 @@
 
 .ico-funds-row {
     display: grid;
-    grid-template-columns: 320px 320px 320px;
+    grid-template-columns: 240px 240px 240px;
     grid-gap: 10px;
 }
 
 .hardfork-section-new {
     display: grid;
-    grid-template-columns: 362px 362px;
-    grid-gap: 10px;
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap: 5rem;
     margin-left: 0.5rem;
 }
+
+.article-hardfork-new {
+    width: 300px;
+}
+
+.img1 {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/2GzQLFM');
+    height: 200px;
+    width: 300px
+}
+
+.img2 {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Netflix-Featured_1-796x417.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 300px
+}
+  
+  .img3 {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FCropped-Apple-iPhone-2020-October-Event-hed.jpg&signature=7f856702b0d7d653b6c21385829d4191');
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 300px;
+}
+  
+  .img-textandimg1 {
+    background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fimage-2-3.png&signature=46eb8974a30417f8bb01e6dd9323c395');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+  
+  .img-textandimg2 {
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-11T182518.964-796x417.png');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+  
+  .img-textandimg3 {
+    background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FSnag_2c5b02a1.png&signature=6089850ac90dcda000429fe9ad802e62');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+
+.text-and-image {
+    background-color:  #fffaf8;
+    color: orangered;
+    padding-left: 1rem;
+    height: 5.3rem;
+    padding-top: 1rem;
+    width: 190px;
+}
+
+.img-textandimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    margin-left: 11.95rem;
+    margin-top: -5.8rem;
+  }
 
 .footer-container i {
     color: white;
