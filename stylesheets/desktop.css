@@ -54,3 +54,20 @@
 .posts-details {
   width: 320px;
 }
+
+.funds-grid {
+    width:320px;
+}
+
+.ico-funds-row {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-gap: 10px;
+}
+
+.hardfork-section-new {
+    display: grid;
+    grid-template-columns: 362px 362px;
+    grid-gap: 10px;
+    margin-left: 0.5rem;
+}
