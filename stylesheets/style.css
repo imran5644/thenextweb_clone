@@ -8,9 +8,13 @@
     display: flex;
 }
 
+header {
+    position: fixed;
+    border: 1px solid green;
+}
+
 nav {
   border-bottom: 1px solid lightgray;
-  position: fixed;
   background-color: white;
   margin-top: -0.5rem;
   width: 100%;
