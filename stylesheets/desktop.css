@@ -35,7 +35,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 330px 330px 330px;
+    grid-template-columns: 250px 250px 250px 250px;
 }
 
 .d-flex {
@@ -47,12 +47,12 @@
 }
 
 .newspost-images img{
-    width: 320px;
+    width: 240px;
     height: 190px;
 }
 
 .posts-details {
-  width: 320px;
+  width: 230px;
 }
 
 .funds-grid {
@@ -70,4 +70,43 @@
     grid-template-columns: 362px 362px;
     grid-gap: 10px;
     margin-left: 0.5rem;
+}
+
+.footer-container i {
+    color: white;
+    border-radius: 80%;
+    padding: 10px;
+    background-color: #505050;
+    margin-left: 10px;
+}
+
+.footer-links a,
+  .social-icons a {
+      text-decoration: none;
+      color: lightgrey;
+      font-size: 16px;
+  }
+
+  .second-line {
+    background-color: #181818;
+    width: 100%;
+    height: 150px;
+    font-size: small;
+    color: gray;
+  }
+
+  .second-line img {
+      width: 70px;
+      height: 40px;
+  }
+
+  .flex-center {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+.bottom-section{
+    display: none;
 }
